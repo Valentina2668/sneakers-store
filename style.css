@@ -511,7 +511,7 @@ section {
 .register-form form .inputBox span {
   color: #666;
   margin-left: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .login-form form .inputBox input,
 .register-form form .inputBox input {
@@ -524,14 +524,14 @@ section {
 
 .shopping-cart .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
   gap: 1.5rem;
   margin-bottom: 2rem;
 }
 .shopping-cart .box-container .box {
   border-radius: 0.5rem;
   border: 0.2rem solid #333;
-  padding: 3rem 2 rem;
+  padding: 2rem 2 rem;
   position: relative;
   display: flex;
   align-items: center;
@@ -539,9 +539,9 @@ section {
 }
 .shopping-cart .box-container .box .fa-times {
   position: absolute;
-  top: 1rem;
-  right: 1.5rem;
-  font-size: 2.5rem;
+  top: 0.5rem;
+  right: 0.5rem;
+  font-size: 2rem;
   cursor: pointer;
   color: #666;
 }
@@ -549,10 +549,10 @@ section {
   color: #e84393;
 }
 .shopping-cart .box-container img {
-  height: 10rem;
+  height: 9rem;
 }
 .shopping-cart .box-container .contact h3 {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   padding-bottom: 0.5rem;
   color: #333;
 }
@@ -567,7 +567,7 @@ section {
   font-size: 1.5rem;
 }
 .shopping-cart .box-container form input {
-  width: 8rem;
+  width: 7rem;
   font-size: 1.5rem;
   color: #666;
   padding: 1rem;

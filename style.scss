@@ -614,7 +614,7 @@ section {
             span {
                 color: $light-color;
                 margin-left: 1rem;
-                font-size: 2rem;
+                font-size: 1.5rem;
             }
 
             input {
@@ -634,13 +634,13 @@ section {
 
 .shopping-cart {
     .box-container {
-        @include grid(31rem);
+        @include grid(32rem);
         margin-bottom: 2rem;
 
         .box {
             border-radius: .5rem;
             border: $border;
-            padding: 3rem 2 rem;
+            padding: 2rem 2 rem;
             position: relative;
             display: flex;
             align-items: center;
@@ -649,9 +649,9 @@ section {
 
             .fa-times {
                 position: absolute;
-                top: 1rem;
-                right: 1.5rem;
-                font-size: 2.5rem;
+                top: .5rem;
+                right: .5rem;
+                font-size: 2rem;
                 cursor: pointer;
                 color: $light-color;
 
@@ -663,12 +663,12 @@ section {
         }
 
         img {
-            height: 10rem;
+            height: 9rem;
         }
 
         .contact {
             h3 {
-                font-size: 1.7rem;
+                font-size: 1.5rem;
                 padding-bottom: .5rem;
                 color: $black;
             }
@@ -685,7 +685,7 @@ section {
                 font-size: 1.5rem;
             }
             input{
-                width: 8rem;
+                width: 7rem;
                 font-size: 1.5rem;
                 color: $light-color;
                 padding: 1rem;
